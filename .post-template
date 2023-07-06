@@ -1,6 +1,6 @@
 ---
 title: 
-date: YYYY-MM-DD HH:MM
+date: %yyyy%-%mm%-%dd% %hh%:%ii%
 image: 
 lead: 
 subtitle: 
