@@ -26,16 +26,16 @@ title: Post
                 <hr>
 
                 <!-- Date/Time -->
-                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%b %d, %y"}}</p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%b %d, %y" }}</p>
 
                 <hr>
                 
                    <!-- Preview Image -->
                    {% if page.image %}
                    <img class="img-responsive" src="{{ page.image }}" alt="{{ page.image }}">
+                   <hr>
                     {% endif %}
-                
-                <hr>
+            
 
                 <!-- Post Content -->
                 {% if page.lead %}
