@@ -31,7 +31,7 @@ plugins:
   - jekyll-feed
 
 permalink: none
-
+comments: false
 defaults:
   -
     scope:
@@ -41,3 +41,5 @@ defaults:
       layout: "post"
       author: "Bryan Herr"
       category: "jekyll"
+      comments: false
+
